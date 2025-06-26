@@ -1,0 +1,80 @@
+// // // let score=true;
+// // // //let score=undefined;
+// // // //let score=null;
+// // // //let score="33";
+// // // //let score="32a";
+
+// // // //console.log(typeof score);
+// // // //console.log(typeof(score));
+
+// // // //let valueInNumber=Number(score);
+// // // //console.log(typeof valueInNumber);
+// // // //console.log(valueInNumber);
+
+
+// // // // "33" => 33
+// // // // "22a" => NaN
+// // // // true => 1 ; false=>0
+
+// // // let isloggedIn="320f";
+// // // let booleanIsLoggedIn= Boolean(isloggedIn);
+// // // console.log(typeof booleanIsLoggedIn);
+// // // console.log(booleanIsLoggedIn);
+
+// // // // 1 => true
+// // // // 0 => false
+// // // // ""=> false
+// // // // "few"=> true
+
+
+// // // //let someNumber=33
+// // // //let str=String(someNumber)
+
+// // // console.log(typeof str)
+// // // console.log(str)
+
+
+// // // //******** OPERATIONS **************
+
+// // let val=3;
+// // let negVal=-val;
+
+// // console.log(2+2)
+// // console.log(2-2)
+// // console.log(2*2)
+// // console.log(2/2)
+// // console.log(2**3)
+// // console.log(2%2)
+
+// // let str1="Hello"
+// // let str2= " Daksh"
+
+// // let str3=str1+str2;
+// // console.log(str3)
+
+
+// // console.log("1"+2)
+// // console.log("1"+2+2)
+
+// // console.log(1+"1")
+// // console.log(1+1+"1")
+
+// console.log(+true)
+// // console.log(true+)  error
+
+// console.log(+"");
+
+// let num1,num2,num3
+
+//Prefix and post fix operator
+
+let x = 3;
+let y = x++;  // y is assigned the current value of x, then x is incremented
+
+console.table([x, y]); // x = 4, y = 3
+console.log(y);        // 3
+
+x = 3;
+y = ++x;  // x is incremented first, then y is assigned the new value of x
+
+console.table([x, y]); // x = 4, y = 4
