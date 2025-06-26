@@ -1,0 +1,38 @@
+// Earlier classes module are not available in js
+
+"use strict" //treat all js code as newer version
+
+//alert(3+3) //we are using node js not browser // throw an error
+
+console.log(3+
+    3); console.log("Hello")  //code readblity should be high
+
+console.log(3+3)
+console.log("Hello")  //code readblity good
+
+
+let name="Daksh"
+let age=18
+let isLoggedIn=true
+
+// number => 2 to power 53
+// bigint
+// string =>""
+// boolean => true/false
+// null => standalone value
+// undefined => value not assigned
+// symbol => unique
+
+// object
+
+console.log(typeof null)  // object
+console.log(typeof undefined)  // undefined
+console.log(typeof 123)  // number
+
+let num=Number("2482")
+console.log(num);
+
+let big=BigInt("23242")
+let big2=1345325n  // n define the big int
+console.log(typeof big)
+console.log(typeof big2)
